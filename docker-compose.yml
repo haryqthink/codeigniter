@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+     codeingniter:
+       image: codeigniter:1.0
+       restart: always
+       ports:
+         - 80:80
+
